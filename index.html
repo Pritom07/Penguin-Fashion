@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin fashion</title>
     <link rel="shortcut icon" href="Pictures/images/penguinfavicon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -13,6 +14,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        webColor: '#A4BC46',
+                        headerColor: '#FFFDD0',
+                        yellowShade: '#FABE4C'
                     }
                 }
             }
@@ -23,6 +27,56 @@
 </head>
 
 <body>
+
+    <header class="bg-headerColor p-3">
+        <section class="container mx-auto">
+            <nav class="flex justify-between">
+                <div>
+                    <i class="fa-solid fa-igloo text-3xl"></i>
+                    <span class="text-webColor text-3xl font-bold">&nbsp;Penguin</span>
+                    &nbsp;<span class="text-[#363958] text-3xl font-bold">Fashion</span>
+                </div>
+                <div>
+                    <ul class="flex items-center">
+                        <li class="list-none whitespace-nowrap">
+                            <a href="" class="text-slate-700 text-lg font-medium ">
+                                <i class="fa-solid fa-house-user text-2xl"></i>&nbsp;Home</a>
+                        </li>
+                        <li class="list-none whitespace-nowrap ml-7">
+                            <a href="" class="text-slate-700 text-lg font-medium">
+                                <img src="Pictures/icons/product.png" class="inline h-7"> Product</a>
+                        </li>
+                        <li class="list-none whitespace-nowrap ml-7">
+                            <a href="" class="text-slate-700 text-lg font-medium">
+                                <img src="Pictures/icons/aboutus.png" class="inline h-8"> About Us</a>
+                        </li>
+                        <li class="list-none whitespace-nowrap ml-7">
+                            <a href="" class="text-slate-700 text-lg font-medium">
+                                <img src="Pictures/icons/contact.png" class="inline"> Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <section class="container mx-auto mt-4 mb-6">
+            <div class="flex justify-between">
+                <div class="mt-20">
+                    <p class="uppercase text-5xl font-bold text-yellowShade">Be the penguins</p>
+                    <p class="uppercase text-5xl font-bold text-[#363958] mt-3">Of winter</p>
+                    <p class="mt-2 mb-2 text-slate-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Quibusdam voluptatibus <br> praesentium aspernatur sequi velit a totam in qui iure accusamus.
+                    </p>
+                    <button class="uppercase btn text-white bg-success hover:bg-success p-2">
+                        <i class="fa-solid fa-cart-plus"></i> Buy now</button>
+                </div>
+                <div class="mr-24">
+                    <img src="Pictures/images/model.png">
+                </div>
+            </div>
+        </section>
+
+    </header>
 
 </body>
 
