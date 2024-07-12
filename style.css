@@ -15,3 +15,15 @@ body {
     max-width: 1360px;
     margin: 0 auto;
 }
+
+/* ------------footer section style --------------------------*/
+
+.fotter-width {
+    width: 80%;
+}
+
+.footer-image {
+    width: 96%;
+    position: relative;
+    right: 4%;
+}

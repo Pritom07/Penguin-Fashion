@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,8 @@
                         clifford: '#da373d',
                         webColor: '#A4BC46',
                         headerColor: '#FFFDD0',
-                        yellowShade: '#FABE4C'
+                        yellowShade: '#FABE4C',
+                        footerItemColor: "#363958"
                     }
                 }
             }
@@ -29,7 +30,7 @@
 <body>
 
     <header class="bg-headerColor p-3">
-        <section class="container mx-auto">
+        <section class="container mx-auto mt-1">
             <nav class="flex justify-between">
                 <div>
                     <i class="fa-solid fa-igloo text-3xl"></i>
@@ -61,7 +62,7 @@
 
         <section class="container mx-auto mt-4 mb-6">
             <div class="flex justify-between">
-                <div class="mt-16 ml-2">
+                <div class="mt-16 ml-8">
                     <p class="uppercase text-5xl font-bold text-yellowShade">Be the penguins</p>
                     <p class="uppercase text-5xl font-bold text-[#363958] mt-4">Of winter</p>
                     <p class="mt-4 mb-4 text-slate-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -227,6 +228,43 @@
                 </div>
             </div>
         </section>
+
+        <footer class="container mx-auto mt-28 mb-14">
+            <div class="grid grid-cols-2">
+                <div class="ml-3">
+                    <div
+                        class="flex items-center border-slate-200 border-2 shadow-lg rounded-xl py-3 pl-12 fotter-width">
+                        <img src="Pictures/icons/house.png" class="w-20">
+                        <div class="ml-12">
+                            <h3 class="text-2xl font-semibold text-footerItemColor">Find The Perfect Fit</h3>
+                            <p class="mt-2 text-[#3E3E3E] text-sm">Everybody is different, which is why we <br> for
+                                everynody.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center border-slate-200 border-2 shadow-lg rounded-xl py-3 pl-12 mt-4 fotter-width">
+                        <img src="Pictures/icons/box.png" class="w-20">
+                        <div class="ml-12">
+                            <h3 class="text-2xl font-semibold text-footerItemColor">Free Exchanges</h3>
+                            <p class="mt-2 text-[#3E3E3E] text-sm">One of the most reasons you can shop <br> with peace
+                                of mind.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center border-slate-200 border-2 shadow-lg rounded-xl py-3 pl-12 mt-4 fotter-width">
+                        <img src="Pictures/icons/question.png" class="w-20">
+                        <div class="ml-12">
+                            <h3 class="text-2xl font-semibold text-footerItemColor">Contact Our Seller</h3>
+                            <p class="mt-2 text-[#3E3E3E] text-sm">They are here to help you. That's quite <br>literally
+                                what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="Pictures/images/shopping.png" class="footer-image">
+                </div>
+            </div>
+        </footer>
     </main>
 
 </body>
