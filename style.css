@@ -16,6 +16,10 @@ body {
     margin: 0 auto;
 }
 
+.be-the-penguin>button {
+    color: white;
+}
+
 /* ------------footer section style --------------------------*/
 
 .fotter-width {
@@ -26,4 +30,323 @@ body {
     width: 96%;
     position: relative;
     right: 4%;
+}
+
+/* --------------------media quries section--------------------- */
+
+@media only screen and (max-width:539px) {
+
+    /*----------------- navbar section style ----------------------*/
+
+    .penguin {
+        white-space: nowrap;
+    }
+
+    .nav-options {
+        flex-direction: column;
+        margin-top: 38%;
+        position: relative;
+        right: 170%;
+    }
+
+    .nav-options>li {
+        margin-top: 5%;
+    }
+
+    .home {
+        margin-left: 10%;
+    }
+
+    /* ---------------------top banner section style---------------------- */
+
+    .top-banner {
+        position: relative;
+        bottom: 40%;
+        margin-top: -8% !important;
+    }
+
+    .banner-caption {
+        flex-direction: column;
+    }
+
+    .top-banner,
+    .be-the-penguin {
+        width: 100%;
+    }
+
+    .be-the,
+    .winter {
+        white-space: nowrap;
+        font-size: 40px !important;
+        position: relative;
+        right: 8%;
+    }
+
+    .banner-text {
+        text-align: justify;
+        position: relative;
+        right: 8%;
+    }
+
+    .be-the-penguin>button,
+    .card-footer>button {
+        color: white !important;
+        margin-left: -8%;
+    }
+
+    .banner-image>img {
+        width: 120%;
+        height: 300px;
+        margin-top: 3%;
+        margin-left: 11%;
+    }
+
+    /* ------------------woman jacket section style----------------------- */
+
+    .man-woman {
+        font-size: 27px !important;
+        font-weight: 700 !important;
+        margin-left: 3%;
+    }
+
+    .see {
+        margin-right: 4%;
+        margin-top: 1%;
+    }
+
+    .each-jacket {
+        margin: 4%;
+    }
+
+    .jacket-card {
+        width: 100% !important;
+    }
+
+    .woman-jacket-img1 {
+        padding-right: 14%;
+    }
+
+    .woman-jacket-img2 {
+        padding-right: 15%;
+    }
+
+    .woman-jacket-img3 {
+        padding-right: 14%;
+    }
+
+    /* ---------------man jacket section style ------------------------*/
+
+    .man-jacket-img1 {
+        padding-right: 11% !important;
+    }
+
+    .man-jacket-img2 {
+        padding-right: 9%;
+    }
+
+    .man-jacket-img3 {
+        padding-right: 10%;
+    }
+
+    /*------------------- footer section style ---------------------*/
+
+    .footer-parent {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .fotter-width {
+        margin-top: 6%;
+        width: 96%;
+        flex-direction: column;
+        padding: 8px 0 !important;
+    }
+
+    .fotter-width>img {
+        margin-right: 5% !important;
+    }
+
+    .footer-left {
+        text-align: center;
+    }
+
+    .footer-left>h3 {
+        position: relative;
+        right: 10%;
+        white-space: nowrap;
+    }
+
+    .footer-left>p {
+        position: relative;
+        right: 11%;
+        white-space: nowrap;
+    }
+
+    .footer-image {
+        margin-left: 6%;
+        margin-top: -5%;
+    }
+
+
+}
+
+@media only screen and (min-width:540px) and (max-width:688px) {
+
+    /*----------------- navbar section style ----------------------*/
+
+    .penguin {
+        white-space: nowrap;
+    }
+
+    .nav-options {
+        flex-direction: column;
+        margin-top: 34% !important;
+        position: relative;
+        right: 170% !important;
+    }
+
+    .nav-options>li {
+        margin-top: 6% !important;
+    }
+
+    .home {
+        margin-left: 10%;
+    }
+
+    .about {
+        margin-left: 23% !important;
+    }
+
+    .contact {
+        margin-left: 24% !important;
+    }
+
+    /* ------------------top banner section style--------------------- */
+
+    .top-banner {
+        position: relative;
+        bottom: 40%;
+        margin-top: -4% !important;
+    }
+
+    .banner-caption {
+        flex-direction: column;
+    }
+
+    .top-banner,
+    .be-the-penguin {
+        width: 100%;
+    }
+
+    .be-the,
+    .winter {
+        white-space: nowrap;
+        font-size: 50px !important;
+        position: relative;
+        right: 5%;
+    }
+
+    .banner-text {
+        text-wrap: nowrap;
+        font-size: 13px;
+        position: relative;
+        right: 7%;
+    }
+
+    .be-the-penguin>button {
+        position: relative;
+        left: 2%;
+    }
+
+    .be-the-penguin>button,
+    .card-footer>button {
+        color: white !important;
+        margin-left: -8%;
+    }
+
+    .banner-image>img {
+        width: 170%;
+        height: 400px;
+        margin-top: 3%;
+        margin-left: 9%;
+    }
+
+    /* -----------------woman jacket section style ---------------------*/
+
+    .man-woman {
+        font-size: 33px !important;
+        font-weight: 700 !important;
+        margin-left: 3%;
+    }
+
+    .see {
+        margin-right: 4%;
+        margin-top: 1%;
+    }
+
+    .each-jacket {
+        margin: 4%;
+    }
+
+    .jacket-card {
+        width: 100% !important;
+    }
+
+    .woman-jacket-img1,
+    .woman-jacket-img2,
+    .woman-jacket-img3 {
+        padding-left: 24% !important;
+    }
+
+    .card-body>h2 {
+        font-size: 30px;
+    }
+
+    /* ---------------------man jacket section style---------------------- */
+
+    .man-jacket-img1,
+    .man-jacket-img2,
+    .man-jacket-img3 {
+        padding-left: 18% !important;
+    }
+
+    /* -----------------footer section style ---------------------------*/
+
+    .footer-parent {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .fotter-width {
+        margin-top: 6%;
+        width: 96%;
+        flex-direction: column;
+        padding: 8px 0 !important;
+    }
+
+    .fotter-width>img {
+        margin-right: 5% !important;
+    }
+
+    .footer-left {
+        text-align: center;
+    }
+
+    .footer-left>h3 {
+        position: relative;
+        right: 10%;
+        white-space: nowrap;
+    }
+
+    .footer-left>p {
+        position: relative;
+        right: 11%;
+        white-space: nowrap;
+    }
+
+    .footer-image {
+        margin-left: 6%;
+        margin-top: -5%;
+    }
+
 }
