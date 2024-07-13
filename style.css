@@ -79,7 +79,7 @@ body {
         white-space: nowrap;
         font-size: 40px !important;
         position: relative;
-        right: 8%;
+        right: 11.5% !important;
     }
 
     .banner-text {
@@ -95,8 +95,8 @@ body {
     }
 
     .banner-image>img {
-        width: 120%;
-        height: 300px;
+        width: 120% !important;
+        height: 300px !important;
         margin-top: 3%;
         margin-left: 11%;
     }
@@ -265,8 +265,8 @@ body {
     }
 
     .banner-image>img {
-        width: 170%;
-        height: 400px;
+        width: 170% !important;
+        height: 400px !important;
         margin-top: 3%;
         margin-left: 9%;
     }
@@ -347,6 +347,270 @@ body {
     .footer-image {
         margin-left: 6%;
         margin-top: -5%;
+    }
+
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    /* -----------------navbar section style----------------------- */
+
+    .penguin {
+        white-space: nowrap;
+    }
+
+    .nav-options {
+        flex-direction: column;
+        margin-top: 28%;
+        position: relative;
+        right: 160%;
+    }
+
+    .nav-options>li {
+        margin-top: 9%;
+    }
+
+    .nav-options>li>a {
+        font-size: 30px;
+    }
+
+    .home {
+        margin-left: 10%;
+    }
+
+    .product {
+        margin-left: 20% !important;
+    }
+
+    .about {
+        margin-left: 23% !important;
+    }
+
+    .contact {
+        margin-left: 33% !important;
+    }
+
+    /* -------------------top banner section style------------------------ */
+
+    .top-banner {
+        position: relative;
+        bottom: 40%;
+        margin-top: -2% !important;
+    }
+
+    .banner-caption {
+        flex-direction: column;
+    }
+
+    .top-banner,
+    .be-the-penguin {
+        width: 100%;
+    }
+
+    .be-the,
+    .winter {
+        white-space: nowrap;
+        font-size: 70px !important;
+        position: relative;
+        right: 2%;
+    }
+
+    .banner-text {
+        text-wrap: nowrap;
+        font-size: 18px;
+        position: relative;
+        right: 3.5%;
+    }
+
+    .be-the-penguin>button {
+        position: relative;
+        left: 5%;
+        height: 70px !important;
+        width: 20%;
+        font-size: 18px;
+    }
+
+    .be-the-penguin>button,
+    .card-footer>button {
+        color: white !important;
+        margin-left: -8%;
+    }
+
+    .banner-image>img {
+        width: 170% !important;
+        height: 200% !important;
+        margin-top: 3%;
+        margin-left: 4%;
+    }
+
+    /*----------------- woman jacket section style-------------------- */
+
+    .man-woman {
+        font-size: 43px !important;
+        font-weight: 700 !important;
+        margin-left: 3%;
+    }
+
+    .see {
+        font-size: 26px;
+        margin-right: 4%;
+        margin-top: 1%;
+    }
+
+    .each-jacket {
+        margin: 4%;
+    }
+
+    .jacket-card {
+        width: 100% !important;
+    }
+
+    .woman-jacket-img1 {
+        padding-right: 13%;
+    }
+
+    .woman-jacket-img2 {
+        padding-right: 13%;
+    }
+
+
+    .woman-jacket-img3 {
+        padding-right: 17% !important;
+    }
+
+    /*------------------- man jacket section style------------------ */
+
+    .man-jacket-img1,
+    .man-jacket-img3 {
+        padding-right: 18% !important;
+    }
+
+    .man-jacket-img2 {
+        padding-right: 12%;
+    }
+
+    /* ---------------------footer section style------------------- */
+
+    .footer-parent {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .footer-image {
+        margin-left: 6%;
+    }
+
+    .fotter-width {
+        margin-top: 6%;
+        width: 96%;
+        height: 200px;
+        padding: 2px 0 !important;
+    }
+
+    .footer-left {
+        margin-left: 10%;
+    }
+
+    .footer-left>h3 {
+        font-size: 40px;
+        white-space: nowrap;
+    }
+
+    .footer-left>p {
+        margin-top: 6%;
+        font-size: 22px;
+        white-space: nowrap;
+    }
+
+    .fotter-width>img {
+        width: 20%;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1024px) {
+
+    /* -----------------woman jacket section style--------------------- */
+
+    .man-woman {
+        font-size: 40px !important;
+        font-weight: 700 !important;
+        margin-left: 2%;
+    }
+
+    .see {
+        font-size: 28px;
+        margin-right: 3%;
+    }
+
+    .each-jacket {
+        height: 100%;
+        margin: 1% !important;
+    }
+
+    .jacket-card {
+        width: 97% !important;
+    }
+
+    .woman-jacket-img1,
+    .woman-jacket-img2,
+    .woman-jacket-img3 {
+        padding-left: 7% !important;
+    }
+
+    /* ----------------man jacket section style---------------------- */
+
+    .card-body>h2 {
+        font-size: 24px !important;
+        white-space: nowrap !important;
+    }
+
+    .man-jacket-img1,
+    .man-jacket-img2,
+    .man-jacket-img3 {
+        padding-left: 4% !important;
+    }
+
+    /*----------------- footer section style-------------------- */
+
+    .footer-parent {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .footer-image {
+        margin-left: 6%;
+    }
+
+    .fotter-width {
+        margin-top: 6%;
+        width: 96%;
+        height: 200px;
+        padding: 2px 0 !important;
+    }
+
+    .footer-left {
+        margin-left: 10%;
+    }
+
+    .footer-left>h3 {
+        font-size: 40px;
+        white-space: nowrap;
+    }
+
+    .footer-left>p {
+        margin-top: 6%;
+        font-size: 22px;
+        white-space: nowrap;
+    }
+
+    .fotter-width>img {
+        width: 20%;
+        margin-left: 3%;
+    }
+
+    .fotter-width {
+        margin-left: 2%;
     }
 
 }
